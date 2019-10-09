@@ -1,0 +1,78 @@
+
+body{
+    width:100%;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.container{
+    background-color:green;
+}
+
+.instructions{
+    font-size:40px;
+    color:black;
+    font-family: 'Big Shoulders Display', cursive;
+    border-bottom:8px solid black;
+    background-color:rgb(107, 39, 39);
+}
+
+.gifdirections, .add-topic-text{
+    font-size:24px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.gifsection{
+   text-align:center;
+}
+
+.topicDiv{
+    float:left;
+}
+
+.gif{
+   max-width:40%;
+    margin:10px;
+    padding:5px;
+    border:5px solid black;
+}
+
+.gif:hover{
+    background-color:#2a648c;
+}
+
+button:hover{
+    background-color:#2a648c;
+}
+
+#add-topic:hover{
+    background-color:#2a648c;
+}
+
+
+button, .gif{  
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.newbutton{
+    border-radius:5px;
+    margin:10px;
+}
+
+#add-topic{
+    width:50%;
+    margin:10px;
+    border-radius:5px;
+}
+
+.footer{
+    border-top:10px solid black;
+    text-align:center;
+    background-color:Grey;
+    position: sticky;  
+    bottom: 0;  
+    width: 100%;  
+    color:white;
+    height:40px;
+}
